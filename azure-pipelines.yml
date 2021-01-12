@@ -9,4 +9,4 @@ steps:
   displayName: 'Execute inline Powershell'
   inputs:
      targetType: inline
-     script: 'Write-Host. "This job was executed in a container called $ENV:COMPUTERNAME which is running'
+     script: 'Write-Host "This job was executed in a container called $ENV:COMPUTERNAME which is running"'
