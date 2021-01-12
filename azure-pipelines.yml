@@ -2,7 +2,7 @@ trigger:
 - 'build-agent'
 
 pool:
-- name: 'MyWindowsContainers'
+  name: 'MyWindowsContainers'
 
 steps:
 - task: Powershell@2
